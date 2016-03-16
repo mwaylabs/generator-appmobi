@@ -23,7 +23,7 @@ module.exports = yeoman.Base.extend({
   },
 
   writing: function () {
-    if (this.options['no-cordova']) {
+    if (this.options['skip-sdk']) {
       return;
     }
     return cordova.plugin('add', 'https://github.com/appMobiGithub/cordova-plugin-appmobi.git', {

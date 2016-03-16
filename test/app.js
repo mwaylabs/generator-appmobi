@@ -7,7 +7,7 @@ describe('generator-appmobi:app', function () {
   describe('prompts by user', function () {
     before(function (done) {
       helpers.run(path.join(__dirname, '../generators/app'))
-        .withOptions({'no-cordova': true})
+        .withOptions({'no-sdk': true})
         .withPrompts({
           APP_NAME: 'a',
           PROJECT_ID: 'v',
@@ -24,7 +24,7 @@ describe('generator-appmobi:app', function () {
     before(function (done) {
       helpers.run(path.join(__dirname, '../generators/app'))
         .withOptions({
-          'no-cordova': true,
+          'no-sdk': true,
           props: {
             APP_NAME: 'a',
             PROJECT_ID: 'v',
