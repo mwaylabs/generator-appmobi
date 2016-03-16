@@ -1,19 +1,43 @@
 'use strict';
 var path = require('path');
 var assert = require('yeoman-assert');
-var helpers = require('yeoman-generator').test;
+var helpers = require('yeoman-test');
 
 describe('generator-appmobi:app', function () {
-  before(function (done) {
-    helpers.run(path.join(__dirname, '../generators/app'))
-      .withOptions({someOption: true})
-      .withPrompts({someAnswer: true})
-      .on('end', done);
+  describe('prompts by user', function () {
+    before(function (done) {
+      helpers.run(path.join(__dirname, '../generators/app'))
+        .withOptions({'no-cordova': true})
+        .withPrompts({
+          APP_NAME: 'a',
+          PROJECT_ID: 'v',
+          CONFIG_URL: 'c'
+        })
+        .on('end', done);
+    });
+
+    it('runs', function () {
+      assert(true);
+    });
+  });
+  describe('prompts via options', function () {
+    before(function (done) {
+      helpers.run(path.join(__dirname, '../generators/app'))
+        .withOptions({
+          'no-cordova': true,
+          'no-skip-welcome-message': true,
+          props: {
+            APP_NAME: 'a',
+            PROJECT_ID: 'v',
+            CONFIG_URL: 'c'
+          }
+        })
+        .on('end', done);
+    });
+
+    it('runs', function () {
+      assert(true);
+    });
   });
 
-  it('creates files', function () {
-    assert.file([
-      'dummyfile.txt'
-    ]);
-  });
 });
