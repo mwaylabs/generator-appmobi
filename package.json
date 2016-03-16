@@ -11,14 +11,12 @@
   "files": [
     "generators"
   ],
-  "main": "generators/index.js",
+  "main": "index.js",
   "keywords": [
     "yeoman-generator"
   ],
   "dependencies": {
     "yeoman-generator": "^0.22.1",
-    "chalk": "^1.1.0",
-    "yosay": "^1.0.4",
     "cordova-lib": "^6.0.0"
   },
   "devDependencies": {

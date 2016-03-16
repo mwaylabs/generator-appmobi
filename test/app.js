@@ -25,7 +25,6 @@ describe('generator-appmobi:app', function () {
       helpers.run(path.join(__dirname, '../generators/app'))
         .withOptions({
           'no-cordova': true,
-          'no-skip-welcome-message': true,
           props: {
             APP_NAME: 'a',
             PROJECT_ID: 'v',
