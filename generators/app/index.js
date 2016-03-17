@@ -34,10 +34,10 @@ module.exports = yeoman.Base.extend({
       /*eslint-enable camelcase */
     })
     .then(function () {
-      this.log(chalk.green('appmobi') + ' successfully integrated');
+      this.log(chalk.green('Appmobi') + ' successfully integrated');
     }.bind(this))
     .catch(function (err) {
-      this.log(chalk.red('appmobi') + ' not integrated\n' + err);
+      this.log(chalk.red('Appmobi') + ' not integrated\n' + err);
       process.exit(1);
     }.bind(this));
   },

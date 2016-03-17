@@ -14,7 +14,8 @@
 Guides you through the installation of the [Appmobi Cordova plugin](https://github.com/appMobiGithub/cordova-plugin-appmobi) in a user-friendly fashion.
 
 ## Use
-
+#### Generator-M-Ionic
+See how to integrate [Appmobi into Generator-M-Ionic](https://github.com/mwaylabs/generator-m-ionic/tree/master/docs/ecosystems/appmobi.md)!
 #### Standalone
 Can be run in any Cordova project:
 ```

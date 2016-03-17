@@ -1,6 +1,6 @@
 {
   "name": "generator-appmobi",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Generator for Appmobi integration into other Yeoman generators",
   "homepage": "https://github.com/mwaylabs/generator-appmobi",
   "author": {
