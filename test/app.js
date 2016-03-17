@@ -4,6 +4,8 @@ var assert = require('yeoman-assert');
 var helpers = require('yeoman-test');
 
 describe('generator-appmobi:app', function () {
+  this.timeout(10000); // allow 10 seconds to execute
+
 
   describe('prompts by user', function () {
     before(function (done) {
