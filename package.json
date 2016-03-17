@@ -1,7 +1,7 @@
 {
   "name": "generator-appmobi",
   "version": "0.0.3",
-  "description": "generator for appmobi integration into generator-m-ionic",
+  "description": "Generator for Appmobi integration into other Yeoman generators",
   "homepage": "https://github.com/mwaylabs/generator-appmobi",
   "author": {
     "name": "gruppjo",
