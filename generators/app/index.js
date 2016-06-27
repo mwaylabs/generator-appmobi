@@ -6,19 +6,16 @@ var prompts = require('./prompts.js');
 
 module.exports = yeoman.Base.extend({
   prompting: function () {
-    var done = this.async();
 
     // props via options
     if (this.options.props) {
       this.props = this.options.props;
-      done();
     } else {
     // or prompt user
-      this.prompt(prompts, function (props) {
+      return this.prompt(prompts)
+      .then(function (props) {
         this.props = props;
         // To access props later use this.props.someOption;
-
-        done();
       }.bind(this));
     }
   },
