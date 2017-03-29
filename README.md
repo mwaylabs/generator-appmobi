@@ -1,4 +1,6 @@
-# generator-appmobi
+# (DEPRECATED!) generator-appmobi
+
+This repository is not being maintained anymore, as of March 2017.
 
 [![NPM version](http://img.shields.io/npm/v/generator-appmobi.svg?style=flat-square)][npm-url]
 [![Coverage Status](http://img.shields.io/coveralls/mwaylabs/generator-appmobi/master.svg?style=flat-square)][coveralls-url]
