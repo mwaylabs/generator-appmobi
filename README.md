@@ -1,5 +1,7 @@
 # generator-appmobi
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mwaylabs/generator-appmobi.svg)](https://greenkeeper.io/)
+
 [![NPM version](http://img.shields.io/npm/v/generator-appmobi.svg?style=flat-square)][npm-url]
 [![Coverage Status](http://img.shields.io/coveralls/mwaylabs/generator-appmobi/master.svg?style=flat-square)][coveralls-url]
 [![Build Status](https://img.shields.io/travis/mwaylabs/generator-appmobi/master.svg?style=flat-square)][travis-url]
